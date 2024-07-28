@@ -11,11 +11,27 @@ import Skills from "./components/skills";
 import ContactMe from "./components/contactMe";
 import Footer from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Head from "next/head";
 
 
 
 export default function Home() {
   return (
+    <>
+      <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KN13247PTG"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KN13247PTG');
+            `,
+          }}
+        />
+      </Head>
+      
     <div className="flex justify-center min-h-screen bg-gradient-to-tl from-black via-zinc-600/20 to-black overflow-hidden">
       <div className="flex flex-col items-center justify-center min-h-screen max-w-[60rem] px-6 pb-10 pt-7 sm:px-10 lg:px-10 leading-relaxed w-full h-full">
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
@@ -69,6 +85,7 @@ export default function Home() {
 
 
     </div>
+    </>
   );
 
 }
