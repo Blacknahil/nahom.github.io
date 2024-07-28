@@ -10,6 +10,7 @@ import Certifications from "./components/certifications";
 import Skills from "./components/skills";
 import ContactMe from "./components/contactMe";
 import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 
@@ -58,6 +59,8 @@ export default function Home() {
 
       </div> 
       </div>
+
+      <SpeedInsights />
 
      
 
