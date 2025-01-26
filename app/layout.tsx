@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     title: "nahom.garefo.com",
     description:
       "",
-    url: "https://chronark.com",
+    url: "https://nahom-github-io.vercel.app/",
     siteName: "nahom.garefo.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://nahom-github-io.vercel.app/",
         width: 1920,
         height: 1080,
       },
