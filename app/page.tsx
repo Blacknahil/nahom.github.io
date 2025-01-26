@@ -12,7 +12,7 @@ import ContactMe from "./components/contactMe";
 import Footer from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Head from "next/head";
-
+import { Analytics } from "@vercel/analytics/react"
 
 
 export default function Home() {
