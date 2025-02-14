@@ -10,7 +10,7 @@ export default function About(){
 
             <div className="flex flex-col gap-y-3 md:w-2/3">
             <div className="text-muted-foreground text-start">
-                <p>Hello! I'm Nahom Garefo, a Software Engineering student. Incoming Software Engineering intern at <a href="https://www.bloomberg.com" target="_blank" className="font-bold text-blue-200">Bloomberg PL</a> in Summer 2025.</p>
+                <p>Hello! I'm Nahom Garefo, a Software Engineering student at Addis Ababa University.</p>
                 <br/>
                 <p>During my training, I have gained extensive experience in key technologies such as HTML,
                      CSS, JavaScript,Typescript, Dart,Flutter, Bootstrap, React, Java, Python, MongoDB and MySQL. My meticulous
